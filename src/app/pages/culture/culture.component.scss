@@ -1,0 +1,52 @@
+.culture {
+    padding: 3rem;
+    &-title {
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+    }
+    &-description {
+        line-height: 1.5;
+        width: 60vw;
+        }
+    &-flags {
+        padding: 2rem 0rem;
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+    }
+}
+.culture-flags-box {
+    display: flex;
+    padding: 1rem 0rem;
+    gap: 2rem;
+    img {
+        width: 150px;
+        height: 100ñpx;
+        aspect-ratio: 4/3;
+    }
+}
+.culture-recipes {
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+}
+.culture-recipes-box {
+    display: flex;
+}
+
+.culture-recipes-box-item {
+    border: 1px solid rgb(221, 221, 221);
+    img {
+        width: 250px;
+    }
+    .item-body {
+        padding: 1rem;
+    }
+}

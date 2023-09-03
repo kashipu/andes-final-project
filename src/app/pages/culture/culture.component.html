@@ -1,0 +1,27 @@
+<section class="culture">
+    <div class="culture-box">
+        <div class="culture-title">
+            <h2>{{cultura?.name}}</h2>
+        </div>
+        <div class="culture-description">
+            <p>{{cultura?.description}}</p>
+        </div>
+        <div class="culture-flags">
+            <h2>Algunos paises que conservan la cultura</h2>
+            <div class="culture-flags-box">
+                <img  *ngFor="let flag of flagsCulture" [src]="flag" alt="">
+            </div>
+        </div>
+        <div class="culture-recipes">
+            <h2>Algunas recetas de la cultura</h2>
+            <div class="culture-recipes-box">
+                <div class="culture-recipes-box-item" *ngFor="let recipe of recipes">
+                    <img [src]="recipe.image" alt="">
+                    <div class="item-body">
+                        <h3>{{recipe.name}}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

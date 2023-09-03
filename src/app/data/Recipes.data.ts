@@ -27,7 +27,6 @@ export const Recipes: Recipe[] = [
         ],
         steps: ["Paso 1", "Paso 2", "Paso 3"],
         culture: CULTUREDATA[0],
-        country: CULTUREDATA[0].countries[0],
     },
     {
         id: '1',
@@ -53,8 +52,7 @@ export const Recipes: Recipe[] = [
             }
         ],
         steps: ["Paso 1", "Paso 2", "Paso 3"],
-        culture: CULTUREDATA[1],
-        country: CULTUREDATA[1].countries[1],
+        culture: CULTUREDATA[1]
     },
     {
         id: '1',
@@ -80,8 +78,7 @@ export const Recipes: Recipe[] = [
             }
         ],
         steps: ["Paso 1", "Paso 2", "Paso 3"],
-        culture: CULTUREDATA[2],
-        country: CULTUREDATA[2].countries[0],
+        culture: CULTUREDATA[2]
     },
     {
         id: '1',
@@ -107,8 +104,7 @@ export const Recipes: Recipe[] = [
             }
         ],
         steps: ["Paso 1", "Paso 2", "Paso 3"],
-        culture: CULTUREDATA[3],
-        country: CULTUREDATA[3].countries[1],
+        culture: CULTUREDATA[3]
     },
     {
         id: '1',
@@ -134,7 +130,6 @@ export const Recipes: Recipe[] = [
             }
         ],
         steps: ["Paso 1", "Paso 2", "Paso 3"],
-        culture: CULTUREDATA[4],
-        country: CULTUREDATA[4].countries[0],
+        culture: CULTUREDATA[4]
     }
 ]

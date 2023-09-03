@@ -14,4 +14,16 @@ export class CountriesService {
   getCultures(): Culture[] {
     return CULTUREDATA;
   }
+  getCultureById(id: string): Culture | undefined {
+    return CULTUREDATA.find(culture => culture.id === id);
+  }
+
+  getFlagsByCulture(culture: string) {
+    const flags: string[] = [];
+    const countriesByCulture = COUNTRIESDATA.filter(country => country.culture.id === culture);
+    countriesByCulture.forEach(country => {
+      flags.push(country.flag);
+    });
+    return flags;
+  }
 }

@@ -1,0 +1,11 @@
+<aside class="sidenav">
+    <div class="sidenav-container">
+        <div class="sidenav-box">
+            <ul *ngFor="let cultura of cultures" class="sidenav-list">
+                <li class="sidenav-item">
+                    <a [routerLink]="'/' + cultura.id" class="sidenav-link">{{cultura.name}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>

@@ -9,5 +9,4 @@ export interface Recipe {
     ingredients: Ingredient[];
     steps: string[];
     culture: Culture;
-    country: Country;
 }

@@ -57,7 +57,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Asia",
         subregion: "Asia Oriental",
         flag: "https://flagcdn.com/cn.svg",
-        culture: CULTUREDATA[3],
+        culture: CULTUREDATA[2],
     },
     {
         id: "8",
@@ -65,7 +65,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Asia",
         subregion: "Asia Meridional",
         flag: "https://flagcdn.com/in.svg",
-        culture: CULTUREDATA[3],
+        culture: CULTUREDATA[2],
     },
     {
         id: "9",
@@ -73,7 +73,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Asia",
         subregion: "Asia Oriental",
         flag: "https://flagcdn.com/jp.svg",
-        culture: CULTUREDATA[3],
+        culture: CULTUREDATA[2],
     },
     {
         id: "10",
@@ -81,7 +81,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Europa",
         subregion: "Europa Occidental",
         flag: "https://flagcdn.com/fi.svg",
-        culture: CULTUREDATA[4],
+        culture: CULTUREDATA[3],
     },
     {
         id: "11",
@@ -89,7 +89,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Europa",
         subregion: "Europa Occidental",
         flag: "https://flagcdn.com/es.svg",
-        culture: CULTUREDATA[4],
+        culture: CULTUREDATA[3],
     },
     {
         id: "12",
@@ -97,15 +97,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Europa",
         subregion: "Europa Meridional",
         flag: "https://flagcdn.com/it.svg",
-        culture: CULTUREDATA[4],
-    },
-    {
-        id: "12",
-        name: "Italia",
-        region: "Europa",
-        subregion: "Europa Meridional",
-        flag: "https://flagcdn.com/it.svg",
-        culture: CULTUREDATA[4],
+        culture: CULTUREDATA[3],
     },
     {
         id: "13",
@@ -113,7 +105,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Oceanía",
         subregion: "Australia y Nueva Zelanda",
         flag: "https://flagcdn.com/au.svg",
-        culture: CULTUREDATA[5],
+        culture: CULTUREDATA[4],
     },
     {
         id: "14",
@@ -121,15 +113,7 @@ export const COUNTRIESDATA: Country[] = [
         region: "Oceanía",
         subregion: "Australia y Nueva Zelanda",
         flag: "https://flagcdn.com/nz.svg",
-        culture: CULTUREDATA[5],
+        culture: CULTUREDATA[4],
     }
 
 ];
-
-COUNTRIESDATA.forEach((country: Country) => {
-    CULTUREDATA.forEach((culture: Culture) => {
-        if (country.culture === culture) {
-            culture.countries.push(country);
-        }
-    });
-});
