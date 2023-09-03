@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CountriesService } from './services/countries.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto-final-andes';
+  constructor(private CountriesService: CountriesService) {
+  }
+
 }
