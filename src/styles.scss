@@ -60,7 +60,16 @@ body {
 .grid-container-app {
 	display: grid;
 	grid-template-columns: 1fr 4fr;
-	grid-template-rows: 1fr;
 	grid-template-areas: "sidenav main";
-	height: 100vh;
+	min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+	.sidenav-box {
+		display: none;
+	}
+	.grid-container-app {
+		grid-template-columns: 1fr;
+		grid-template-areas: "main";
+	}
 }

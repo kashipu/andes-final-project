@@ -3,6 +3,7 @@ import { Country } from '../models/Country.model';
 import { CULTUREDATA } from '../data/Culture.data';
 import { COUNTRIESDATA } from '../data/Countries.data';
 import { Culture } from '../models/Culture.model';
+import { CountryFlags } from '../models/CountryFlags.model';
 
 @Injectable({
   providedIn: 'root'
@@ -19,11 +20,16 @@ export class CountriesService {
   }
 
   getFlagsByCulture(culture: string) {
-    const flags: string[] = [];
+    const countries: CountryFlags[] = [];
     const countriesByCulture = COUNTRIESDATA.filter(country => country.culture.id === culture);
     countriesByCulture.forEach(country => {
-      flags.push(country.flag);
+      countries.push(
+        {
+          name: country.name,
+          flag: country.flag
+        }
+      )
     });
-    return flags;
+    return countries;
   }
 }

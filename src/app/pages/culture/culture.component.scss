@@ -23,14 +23,22 @@
 .culture-flags-box {
     display: flex;
     padding: 1rem 0rem;
-    gap: 2rem;
+    gap: 2.5rem;
+
+}
+.culture-flags-item {
+    display: flex;
+    flex-direction: column;
     img {
         width: 150px;
-        height: 100ñpx;
-        aspect-ratio: 4/3;
+        border: 1px solid rgb(215, 215, 215);
+        margin-bottom: 1rem;
     }
 }
+
+
 .culture-recipes {
+    display: block;
     h2 {
         font-size: 1.2rem;
         font-weight: 600;
@@ -39,9 +47,35 @@
 }
 .culture-recipes-box {
     display: flex;
+    gap: 1.5rem;
 }
 
 .culture-recipes-box-item {
+    border: 1px solid rgb(221, 221, 221);
+    img {
+        width: 250px;
+    }
+    .item-body {
+        padding: 1rem;
+        a {
+            color: black;
+        }
+    }
+}
+
+.culture-restaurants {
+    padding: 3rem 0rem;
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+}
+.culture-restaurants-box {
+    display: flex;
+    gap: 1.5rem;
+}
+.culture-restaurants-box-item {
     border: 1px solid rgb(221, 221, 221);
     img {
         width: 250px;

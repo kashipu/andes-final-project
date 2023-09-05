@@ -1,1 +1,30 @@
-<p>recipe works!</p>
+<section class="recipes">
+    <div class="recipes-image">
+        <img [src]="recipeForUrl?.image" [alt]="'Foto, ' + recipeForUrl?.name" [title]="'Foto, ' + recipeForUrl?.name">
+    </div>
+    <div class="recipes-box">
+        <div class="recipes-back-button">
+            <a routerLink="..">Volver</a>
+        </div>
+        <div class="recipes-title">
+            <h2>{{recipeForUrl?.name}}</h2>
+        </div>
+        <div class="recipes-description">
+            <p>{{recipeForUrl?.description}}</p>
+        </div>
+        <div class="recipes-flags">
+            <h2>Ingredientes</h2>
+            <div class="recipes-ingredients">
+                <ul class="ingredients-list">
+                    <li *ngFor="let ingredient of recipeForUrl?.ingredients">{{ingredient.amount}} -{{ingredient.name}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="recipes-steps">
+            <h2>Paso a paso para preparar</h2>
+            <ol class="steps-list">
+                <li *ngFor="let step of recipeForUrl?.steps">{{step}}</li>
+            </ol>
+        </div>
+    </div>
+</section>

@@ -9,16 +9,33 @@
         <div class="culture-flags">
             <h2>Algunos paises que conservan la cultura</h2>
             <div class="culture-flags-box">
-                <img  *ngFor="let flag of flagsCulture" [src]="flag" alt="">
+                <div class="culture-flags-item" *ngFor="let flag of flagsCulture">
+                    <img  [src]="flag.flag" alt="">
+                    <p>{{flag.name}}</p>
+                </div>
             </div>
         </div>
         <div class="culture-recipes">
             <h2>Algunas recetas de la cultura</h2>
             <div class="culture-recipes-box">
                 <div class="culture-recipes-box-item" *ngFor="let recipe of recipes">
-                    <img [src]="recipe.image" alt="">
+                    <img [src]="recipe.image" [alt]="'Foto, ' + recipe.name" [title]="'Foto, ' + recipe.name">
                     <div class="item-body">
-                        <h3>{{recipe.name}}</h3>
+                        <a [routerLink]="recipe.recipeUrl"><h3>{{recipe.name}}</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="culture-restaurants">
+            <h2>Algunos restaurantes típicos</h2>
+            <div class="culture-restaurants-box">
+                <div class="culture-restaurants-box-item" *ngFor="let restaurant of restaurants">
+                    <img [src]="restaurant.image" [alt]="'Foto, ' + restaurant.name" [title]="'Foto, ' + restaurant.name">
+                    <div class="item-body">
+                        <a [routerLink]="'/'"><h3>{{restaurant.name}}</h3></a>
+                    </div>
+                    <div class="item-body">
+                        <p>{{restaurant.country.subregion}}</p>
                     </div>
                 </div>
             </div>

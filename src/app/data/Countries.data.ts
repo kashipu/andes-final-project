@@ -8,7 +8,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Egipto",
         region: "Africa",
         subregion: "Africa del Norte",
-        flag: "https://flagcdn.com/eg.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/eg.svg",
         culture: CULTUREDATA[0],
     },
     {
@@ -16,7 +16,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Nigeria",
         region: "Africa",
         subregion: "Africa Occidental",
-        flag: "https://flagcdn.com/ne.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/ng.svg",
         culture: CULTUREDATA[0],
     },
     {
@@ -24,7 +24,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Marruecos",
         region: "Africa",
         subregion: "Africa del Norte",
-        flag: "https://flagcdn.com/ma.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/ma.svg",
         culture: CULTUREDATA[0],
     },
     {
@@ -32,7 +32,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Argentina",
         region: "América",
         subregion: "América del Sur",
-        flag: "https://flagcdn.com/ar.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/ar.svg",
         culture: CULTUREDATA[1],
     },
     {
@@ -40,7 +40,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Mexico",
         region: "América",
         subregion: "Centroamérica",
-        flag: "https://flagcdn.com/mx.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/mx.svg",
         culture: CULTUREDATA[1],
     },
     {
@@ -48,7 +48,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Colombia",
         region: "América",
         subregion: "América del Sur",
-        flag: "https://flagcdn.com/co.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/co.svg",
         culture: CULTUREDATA[1],
     },
     {
@@ -56,7 +56,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "China",
         region: "Asia",
         subregion: "Asia Oriental",
-        flag: "https://flagcdn.com/cn.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/cn.svg",
         culture: CULTUREDATA[2],
     },
     {
@@ -64,7 +64,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "India",
         region: "Asia",
         subregion: "Asia Meridional",
-        flag: "https://flagcdn.com/in.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/in.svg",
         culture: CULTUREDATA[2],
     },
     {
@@ -72,7 +72,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Japon",
         region: "Asia",
         subregion: "Asia Oriental",
-        flag: "https://flagcdn.com/jp.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/jp.svg",
         culture: CULTUREDATA[2],
     },
     {
@@ -80,7 +80,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Francia",
         region: "Europa",
         subregion: "Europa Occidental",
-        flag: "https://flagcdn.com/fi.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/fr.svg",
         culture: CULTUREDATA[3],
     },
     {
@@ -88,7 +88,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "España",
         region: "Europa",
         subregion: "Europa Occidental",
-        flag: "https://flagcdn.com/es.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/es.svg",
         culture: CULTUREDATA[3],
     },
     {
@@ -96,7 +96,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Italia",
         region: "Europa",
         subregion: "Europa Meridional",
-        flag: "https://flagcdn.com/it.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/it.svg",
         culture: CULTUREDATA[3],
     },
     {
@@ -104,7 +104,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Australia",
         region: "Oceanía",
         subregion: "Australia y Nueva Zelanda",
-        flag: "https://flagcdn.com/au.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/au.svg",
         culture: CULTUREDATA[4],
     },
     {
@@ -112,7 +112,7 @@ export const COUNTRIESDATA: Country[] = [
         name: "Nueva Zelanda",
         region: "Oceanía",
         subregion: "Australia y Nueva Zelanda",
-        flag: "https://flagcdn.com/nz.svg",
+        flag: "https://flagicons.lipis.dev/flags/4x3/nz.svg",
         culture: CULTUREDATA[4],
     }
 
