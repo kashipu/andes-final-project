@@ -11,5 +11,4 @@ export interface Recipe {
     steps: string[];
     culture: Culture;
     recipeUrl: string | null;
-
 }
